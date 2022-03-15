@@ -10,7 +10,7 @@ b-cov
 pids
 logs
 results
-
+assets/built
 npm-debug.log
 node_modules
 package-lock.json
