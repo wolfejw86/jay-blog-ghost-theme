@@ -12,9 +12,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14.x
-        run: npm install
       - name: Build theme
-        run: npm run zip
+        run: npm install && npm run zip
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1.5.0
         with:
