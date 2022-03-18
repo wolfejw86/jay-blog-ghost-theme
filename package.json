@@ -18,7 +18,7 @@
         "ghost-theme"
     ],
     "config": {
-        "posts_per_page": 5,
+        "posts_per_page": 8,
         "image_sizes": {
             "xs": {
                 "width": 150
@@ -41,6 +41,11 @@
         },
         "card_assets": true,
         "custom": {
+            "allow_subs": {
+                "type": "boolean",
+                "default": true,
+                "group": "homepage"
+            },
             "title_font": {
                 "type": "select",
                 "options": [
